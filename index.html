@@ -1,41 +1,143 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+	<link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+	<title>Tulsa Web Devs</title>
+	<link rel="stylesheet" href="stylesheets/main.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="./javascript/marked.js"></script>
+	<script type="text/javascript" src="./javascript/main.js"></script>
+</head>
+<body>
+	<header id="header" class="">
+		<div class="container-fluid nav">
+			<div class="logo pull-left"><img src="./images/TulsaWebDevs_Logo.jpg" height="60" alt=""></div>
+			<!-- <div class="nav-menu pull-right">
+				<a class="btn">Home</a>
+				<a class="btn">Meetings</a>
+				<a class="btn">Projects</a>
+				<a class="btn">Events</a>
+			</div> -->
+		</div>
+	</header>
+	<div class="body">
+	<div class="container">
+		<div class="col-sm-12">
+			<h2 class="current-events-title">About Us</h1>
+			<div class="about box-border">
+				<div class="mission">Our mission is to make Tulsa one of the greatest cities in the world for web developers.</div>
+				<div class="community">Want to jump in and join the community? Join our slack channel at <a href="http://slack.techlahoma.org/">http://slack.techlahoma.org/</a>. Hope to see you on Slack! There will be lots of good cross-Oklahoma tech talk going on.</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<h2 class="member-title">Admins</h2>
+		<div class="col-sm-4">
+			<div class="member box-border">
+				<div class="member-name">Luke Crouch</div>
+				<div class="avatar"><img src="https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/11079061_10153784876734992_3900107235971459114_n.jpg?oh=e14bb13b2a858f2f81ca2d3b460e59b9&oe=573CEC8F" alt=""></div>
+					<div class="social box-border"><span>Twitter:</span><a href="https://twitter.com/groovecoder">@groovecoder</a></div>
+				<div class="clear-both"></div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="member box-border">
+				<div class="member-name">Buddy Lindsey Jr</div>
+				<div class="avatar"><img src="https://scontent-dfw1-1.xx.fbcdn.net/hprofile-prn2/v/t1.0-1/c50.0.200.200/p200x200/1898133_684822230867_615128620_n.jpg?oh=06aaf93dfbb4359e82572be97a5f643d&oe=5704FD9A" alt=""></div>
+					<div class="social box-border"><span>Twitter:</span><a href="https://twitter.com/BuddyLindsey" target="_blank">@BuddyLindsey</a></div>
+				<div class="clear-both"></div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="member box-border">
+				<div class="member-name">Patrick Forringer</div>
+				<div class="avatar"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuPvnNr85WMQB1VxFlgdhIgn8bOtoMFfWYYLxFSZADPDUreJNB" alt=""></div>
+					<div class="social box-border"><span>Twitter:</span><a href="https://twitter.com/destos" target="_blank">@destos</a></div>
+				<div class="clear-both"></div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="col-sm-6 pull-left">
+			<h2 class="current-events-title">Upcoming Event</h1>
+			<div class="current-event box-border">
+				<div class="title">January Hack Night</div>
+				<hr>
+				<div class="description">First Tuesday means it's time for Tulsa Hack Night. Show up if you have something you want to show off, work on, need to ask a question, or want to answer questions. This will be our last hack night at Flyloft. February will be at 36n.co ! Hope to see you there!</div>
+				<div class="place"><span>Location:</span> <b>Flyloft</b><br>117 N Boston Ave, Tulsa, Oklahoma 74103</div>
+				<div class="date"><span>Date:</span> Tuesday, January 5, 2016 at 6 PM</div>
+				<a href="https://www.facebook.com/events/1091067207572480/" target="_blank" class="btn pull-right">More Info</a>
+				<div class="clear-both"></div>
+			</div>
+		</div>
+		<div class="col-sm-6 pull-right">
+			<h2 class="current-events-title">Upcoming Meeting</h2>
+			<div class="current-event box-border">
+				<div class="title">November Meeting</div>
+				<hr>
+				<div class="description meeting-notes">
+**Agenda**:
+1. 4pm: Code for Tulsa Public Safety Hack Night begins
+2. 6pm - 6:30pm: Eat, mingle, announcements & presentation pitches (5 minutes each):
+   * http://tulsagew.com/
+     * Right Now - Two Guys Bowtie @ Chimera (McNellies after)
+     * Tomorrow, Tuesday @ 5pm - "Amazing Race" starts @ Chimera
+     * Wednesday, 9am - noon - 1 Million Cups Mix-n-match @ TCC C4C
+     * Thursday, 7pm - Maker Documentary @ Circle Cinema
+   * Raw Space Update
+   * December 1, 6pm @ Flyloft: Tulsa Hack Night
+   * December 8, 6pm @ OSU-Tulsa: [Multi-User-Group Christmas Party](https://www.eventbrite.com/e/2015-multi-user-group-christmas-party-tickets-19505712110)
+     * **NO DECEMBER MEETING!**
+   * [Job Pact](http://www.jobpact.com/) announcement
+   * [File a GitHub issue to add your own announcement](https://github.com/tulsawebdevs/tasks/issues/new?labels=meetings&amp;amp;title={Month}%20Announcement:)
+3. 6:30pm: Break out into sessions/sub-groups:
+   * Note: Do introductions in each break-out group
+   * Code for Tulsa Public Safety Hack Night talks
+   * Not Re-writing Your Web App (All at once) - Brian Blocker
+   * Dokku for Deployments - Patrick Forringer
+   * [File a GitHub issue to add your own session](https://github.com/tulsawebdevs/tasks/issues/new?labels=meetings&amp;title={Month}%20Session:)
+4. 7:45pm - 8pm: Leave to another venue
+   * Typically [McNellie's](http://www.openstreetmap.org/way/250493824)
+				</div>
+				<div class="place"><span>Location:</span> <b>I2E: Innovation to Enterprise</b><br> 618 E 3rd St, Ste 1, Tulsa, Oklahoma 74120</div>
+				<div class="date"><span>Date:</span> Monday, November 16, 2015at 6 PM - 8 PM</div>
+				<a href="https://www.facebook.com/events/427674804094125/?ref=4&action_history=null" target="_blank" class="btn pull-right">More Info</a>
+				<div class="clear-both"></div>
+			</div>
+		</div>
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-    <title>Tulsa Web Devs</title>
-  </head>
-
-  <body>
-
-    <header>
-      <div class="container">
-        <h1>Tulsa Web Devs</h1>
-        <p>Temporary Site</p>
-        <h2>Our mission is to make Tulsa one of the greatest cities in the world for web developers.</h2>
-
-        <section id="downloads">
-          <h3>Online Channels</h3>
-          <a href="http://on.fb.me/tulsawebdevs" class="btn btn-facebook"><span class="icon"></span>Facebook</a>
-          <a href="https://twitter.com/tulsawebdevs" class="btn btn-twitter"><span class="icon"></span>Twitter</a>
-          <a href="https://plus.google.com/u/0/communities/105329276617610687480" class="btn btn-google"><span class="icon"></span>Google+</a>
-          <a href="http://slack.techlahoma.org/" class="btn btn-slack"><span class="icon"></span>Slack</a>
-          <a href="https://github.com/tulsawebdevs" class="btn btn-github"><span class="icon"></span>GitHub</a>
-        </section>
-      </div>
-    </header>
-
-    <div class="container">
-      <section id="main_content">
-        <h3>In-Person Events</h3>
-        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23333333&amp;src=hablm4p7eoaknvtugr91o11sv4%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FChicago" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
-      </section>
-    </div>
-    
-  </body>
+	</div>
+	<div class="push"></div>
+	</div>
+	<footer>
+		<div class="container-fluid footer">
+			<div class="col-sm-12">
+				<div class="socialmedia-buttons">
+					<div class="socialmedia-title">Follow Us on Social Media!</div>
+					<a href="https://www.facebook.com/groups/199713962534/" rel="nofollow" target="_blank">
+						<span class="socicon-facebook"></span>
+					</a>
+					<a href="http://twitter.com/tulsawebdevs" rel="nofollow" target="_blank">
+						<span class="socicon-twitter"></span>
+					</a>
+					<a href="https://github.com/tulsawebdevs" rel="nofollow" target="_blank">
+						<span class="socicon-github"></span>
+					</a>
+					<a href="https://plus.google.com/communities/105329276617610687480" rel="nofollow" target="_blank">
+          	<span class="socicon-google"></span>
+          </a>
+				</div>
+				<div class="conduct">
+					<p>Content <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license"><img style="border-width: 0;" alt="Creative Commons License" src="./images/commons.png" scale="0"></a> <a href="http://tulsawebdevs.org/">Tulsa Web Devs</a><br>
+					<a href="http://tulsawebdevs.org/code-of-conduct">Code of Conduct</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
 </html>
